@@ -1,9 +1,4 @@
-install.packages('IRkernel')
-IRkernel::installspec(user = FALSE)
-
-install.packages(c(
-  "plotly",
-  "ggplot2",
-  "htmlwidgets",
-  "IRdisplay"
-))
+install.packages("ggplot2")
+install.packages("plotly")
+install.packages("htmlwidgets")
+install.packages("IRdisplay")
